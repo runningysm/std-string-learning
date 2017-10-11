@@ -24,7 +24,7 @@ int main()
     printf("strcpy_test:%s\n", dest);
     strcpy((char *)dest, src1);
     printf("strcpy:%s\n", dest);
-    strcpy(dest, p);
+    //strcpy(dest, p);
     return 0;
 }
 
